@@ -37,7 +37,7 @@ public class UserRegistrationPage extends PageBase
 	public WebElement SuccessMessage ;
 
 	
-	@FindBy (linkText = "Log out")
+	@FindBy (xpath = "/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a")
 	public WebElement LogoutLink ;
 	
 	

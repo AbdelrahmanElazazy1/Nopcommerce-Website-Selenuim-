@@ -15,13 +15,10 @@ public class SearchPage extends PageBase{
 	}
 
 
-
-
-
 	@FindBy (id = "small-searchterms")
 	WebElement SearchTextBox ;
 
-	@FindBy (linkText ="Search")
+	@FindBy (xpath = "//*[@id=\"small-search-box-form\"]/button")
 	WebElement SearchbButton;
 
 	//@FindBy (id= "ui-id-1")
@@ -29,17 +26,21 @@ public class SearchPage extends PageBase{
 
 	@FindBy(linkText="Apple MacBook Pro 13-inch")
 	WebElement MacProductLink;
+	
+	//@FindBy (xpath = "//*[@id=\"product-details-form\"]/div[2]/div[1]/div[2]/div[9]/div[3]/button")
+	//WebElement EmailAFriendButton;
+	
+	
 
 
 
-
-	public void ProductSearch (String productName)
+	public void ProductSearch ()
 
 	{
-
-		SearchTextBox.sendKeys(productName);
+		SearchTextBox.sendKeys("mac");
 		SearchbButton.click();
 		MacProductLink.click();
+		//EmailAFriendButton.click();
 	}
 
 

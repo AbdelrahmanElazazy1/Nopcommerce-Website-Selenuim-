@@ -12,6 +12,9 @@ public class AddProductReviewPage extends PageBase{
 	}
 
 	
+	@FindBy (xpath="//*[contains(text(),\"Add your review\")]")
+	WebElement AddYourReviewLink;
+	
 	@FindBy (id = "AddProductReview_Title")
 	WebElement ReviewtittleTxt;
 	
@@ -28,11 +31,12 @@ public class AddProductReviewPage extends PageBase{
 	public WebElement SuccessMessage;
 	
 	
+
 	
 	public void AddProductReview ()
 	
 	{
-		
+		AddYourReviewLink.click();
 		ReviewtittleTxt.sendKeys("Azazy");
 		ReviewTxt.sendKeys("This is Mac is Nice");
 		RattingButton.click();

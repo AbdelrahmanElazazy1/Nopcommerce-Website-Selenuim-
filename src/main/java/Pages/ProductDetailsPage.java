@@ -10,23 +10,23 @@ public class ProductDetailsPage extends PageBase{
 		super(driver);
 	}
 
-	
+
 	@FindBy (xpath = "//*[@id=\"price-value-4\"]")
 	public WebElement ProductPricelbl;
-	
-	
-	@FindBy (linkText = "Add your review")
-	public WebElement AddReviewLink;
-	
-	
-	public void OpenAddreviewPage()
-	
-	{
-		AddReviewLink.click();
-		
-	}
-	
-	
-	
-	
+
+
+	//@FindBy (linkText = "Add your review")
+	//public WebElement AddReviewLink;
+
+
+	//public void OpenAddreviewPage()
+
+	//{
+	//	AddReviewLink.click();
+	//
+	//}
+
+
+
+
 }

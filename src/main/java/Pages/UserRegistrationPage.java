@@ -40,12 +40,7 @@ public class UserRegistrationPage extends PageBase
 	@FindBy (xpath = "/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a")
 	public WebElement LogoutLink ;
 	
-	
 
-	
-	
-	
-	
 	public void UserRegistration (String firstname, String lastname, String email, String password )
 
 	{
@@ -70,6 +65,8 @@ public class UserRegistrationPage extends PageBase
 		
 	}
 
+	
+	
 	
 	
 

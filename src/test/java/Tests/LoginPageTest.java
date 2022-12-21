@@ -19,7 +19,7 @@ public class LoginPageTest extends TestBase{
 		homeobject.openLoginPage();
 		
 		LoginObject = new LoginPage(driver);
-	    LoginObject.UserLogin("Abdelrahman.elazazy@outlook.com", "Azazy@123");
+	    LoginObject.UserLogin();
 		
 	}
 	

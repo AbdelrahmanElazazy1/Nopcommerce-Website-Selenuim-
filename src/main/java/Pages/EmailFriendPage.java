@@ -12,34 +12,39 @@ public class EmailFriendPage extends PageBase{
 		super(driver);
 	}
 
-	
-	@FindBy (id="FriendEmail")
+
+	@FindBy (xpath ="//*[@class=\"button-2 email-a-friend-button\"]")
+	WebElement EmailFriendButton;
+
+	@FindBy (id = "FriendEmail")
 	WebElement FriendsEmailTxt;
-	
+
 	@FindBy (id= "YourEmailAddress")
-	WebElement EmailAddressTxt;
-	
-	@FindBy (id= "YourEmailAddress")
+	WebElement YourEmailAddressText;
+
+	@FindBy (id= "PersonalMessage")
 	public WebElement MessageNotificationTxt;
-	
+
 	@FindBy (name ="send-email")
 	WebElement SendEmailButton;
-	
-	
+
+
 	@FindBy (css= "div.result")
 	WebElement SucessMessage;
-	
-	
+
+
+
 	public void SendEmailToFriend()
-	
+
 	{
+		EmailFriendButton.click();
 		FriendsEmailTxt.sendKeys("Azazy@1.com");
-		EmailAddressTxt.sendKeys("Abdelrahman.elazazy@outlook.com");
+		YourEmailAddressText.sendKeys("Aawqeeeonn.elazazy@outlook.com");
 		MessageNotificationTxt.sendKeys("This Product is Awesome");
 		SendEmailButton.click();
-		
+
 	}
+
 	
-	
-	
+
 }

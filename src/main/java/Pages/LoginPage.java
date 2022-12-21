@@ -16,36 +16,39 @@ public class LoginPage extends PageBase
 	@FindBy(id="Email")
 	WebElement Emailtxtbox ;
 
-	
+
 	@FindBy(id = "Password")
 	WebElement Passwordtxtbox ;
-	
-	@FindBy (tagName = "button")
+
+	@FindBy (xpath= "//*[@class=\"button-1 login-button\"]")
 	WebElement LoginButton ;
 
-	
-	
+	@FindBy (xpath = "//*[@class =\"ico-login\"]")
+	WebElement LoginLink;
+
+
 	// (My Account)
-	
+
 	@FindBy (linkText = "My account" )
 	WebElement MyaccountLink ; 
-	
-	
-	public void UserLogin (String Email, String Password)
-	
+
+
+	public void UserLogin ()
+
 	{
-		Emailtxtbox.sendKeys("Abdelrahman.elazazy@outlook.com");
+        LoginLink.click();
+		Emailtxtbox.sendKeys("Aawqeeeonn.elazazy@outlook.com");
 		Passwordtxtbox.sendKeys("Azazy@123");
 		LoginButton.click();
 	}
-	
-	
+
+
 	public void OpenMyAccount()
-	
+
 	{
 		MyaccountLink.click();
 	}
-	
+
 
 
 }

@@ -46,7 +46,7 @@ public class UserRegistrationTest extends TestBase
 	    homeObject = new HomePage(driver);
 		homeObject.openLoginPage();
 		LoginObject = new LoginPage(driver);
-		LoginObject.UserLogin("Abdelrahma59n.elazazy@outlook.com", "Azazy@123");
+		LoginObject.UserLogin();
 		
 		
 	}

@@ -5,11 +5,9 @@
     <classes>
       <class name="Tests.AddProductReviewTest">
         <methods>
-          <include name="BUserCanSearchProduct"/>
+          <include name="CRegisterUserCanReviewProduct"/>
           <include name="stopdriver"/>
           <include name="startdriver"/>
-          <include name="DRegisteredUserCanLogout"/>
-          <include name="AUserCanRegisterSuccessfully"/>
           <include name="screenshotonFailure"/>
         </methods>
       </class> <!-- Tests.AddProductReviewTest -->

@@ -40,7 +40,7 @@ public class SearchPage extends PageBase{
 		SearchTextBox.sendKeys("mac");
 		SearchbButton.click();
 		MacProductLink.click();
-		//EmailAFriendButton.click();
+		
 	}
 
 

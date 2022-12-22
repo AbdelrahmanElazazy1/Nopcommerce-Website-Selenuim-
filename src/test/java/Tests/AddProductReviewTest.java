@@ -50,10 +50,10 @@ public class AddProductReviewTest extends TestBase{
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		searchObject = new SearchPage(driver);	
-		searchObject.ProductSearch();
+		searchObject.ProductSearchMac();
 		//Assert.assertTrue(detailsObject.productNamebreadCrumb.getText().equalsIgnoreCase(productName));
 		//Assert.assertEquals(detailsObject.productNamebreadCrumb.getText(), productName);
-		driver.close();
+		
 	}
 	
 	

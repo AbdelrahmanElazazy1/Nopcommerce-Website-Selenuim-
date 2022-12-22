@@ -14,6 +14,7 @@ public class SearchPage extends PageBase{
 		super(driver);
 	}
 
+	//Search Mac Labtob
 
 	@FindBy (id = "small-searchterms")
 	WebElement SearchTextBox ;
@@ -26,24 +27,30 @@ public class SearchPage extends PageBase{
 
 	@FindBy(linkText="Apple MacBook Pro 13-inch")
 	WebElement MacProductLink;
-	
+
+	@FindBy(linkText="Asus N551JK-XO076H Laptop")
+	WebElement AsusLabtopLink;
+
 	//@FindBy (xpath = "//*[@id=\"product-details-form\"]/div[2]/div[1]/div[2]/div[9]/div[3]/button")
 	//WebElement EmailAFriendButton;
-	
-	
 
 
-
-	public void ProductSearch ()
+	public void ProductSearchMac ()
 
 	{
 		SearchTextBox.sendKeys("mac");
 		SearchbButton.click();
 		MacProductLink.click();
-		
 	}
 
+	
+	public void ProductSearchAsusLabtop()
 
+	{
+		SearchTextBox.sendKeys("Asus");
+		SearchbButton.click();
+		AsusLabtopLink.click();
+	}
 
 
 

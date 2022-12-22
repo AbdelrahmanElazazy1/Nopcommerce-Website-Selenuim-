@@ -44,7 +44,7 @@ public class EmailFriendTest extends TestBase{
 	public void UserCanSearchProduct ()
 	{
 		searchObject = new SearchPage(driver);	
-		searchObject.ProductSearch();
+		searchObject.ProductSearchMac();
 		//Assert.assertTrue(detailsObject.productNamebreadCrumb.getText().equalsIgnoreCase(productName));
 		//Assert.assertEquals(detailsObject.productNamebreadCrumb.getText(), productName);
 	}

@@ -31,7 +31,7 @@ public class ChangeCurrencyTest extends TestBase {
 	{
 		
 		searchObject = new SearchPage(driver);	
-		searchObject.ProductSearch();
+		searchObject.ProductSearchMac();
 		detailsObject = new ProductDetailsPage(driver);
 		Assert.assertTrue(detailsObject.ProductPricelbl.getText().contains("€"));
 		System.out.println(detailsObject.ProductPricelbl.getText());

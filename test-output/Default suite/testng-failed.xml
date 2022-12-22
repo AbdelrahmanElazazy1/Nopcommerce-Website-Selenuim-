@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.AddProductReviewTest">
+      <class name="Tests.UserCheckoutProductsTest">
         <methods>
-          <include name="CRegisterUserCanReviewProduct"/>
           <include name="stopdriver"/>
           <include name="startdriver"/>
           <include name="screenshotonFailure"/>
+          <include name="userCanMakeCheckout"/>
         </methods>
-      </class> <!-- Tests.AddProductReviewTest -->
+      </class> <!-- Tests.UserCheckoutProductsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

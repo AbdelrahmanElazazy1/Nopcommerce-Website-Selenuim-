@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-22T14:56:23 EET" name="Default suite" finished-at="2022-12-22T14:56:38 EET" duration-ms="14110">
+  <suite started-at="2022-12-25T16:30:57Z" name="Default suite" finished-at="2022-12-25T16:32:19Z" duration-ms="81465">
     <groups>
     </groups>
-    <test started-at="2022-12-22T14:56:23 EET" name="Default test" finished-at="2022-12-22T14:56:38 EET" duration-ms="14110">
+    <test started-at="2022-12-25T16:30:57Z" name="Default test" finished-at="2022-12-25T16:32:19Z" duration-ms="81465">
       <class name="Tests.UserCheckoutProductsTest">
-        <test-method is-config="true" signature="startdriver()[pri:0, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:21 EET" name="startdriver" finished-at="2022-12-22T14:56:23 EET" duration-ms="2671" status="PASS">
+        <test-method is-config="true" signature="startdriver()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:30:45Z" name="startdriver" finished-at="2022-12-25T18:30:57Z" duration-ms="11802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method signature="UserCanRegisterSuccessfully()[pri:1, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:23 EET" name="UserCanRegisterSuccessfully" finished-at="2022-12-22T14:56:28 EET" duration-ms="4111" status="PASS">
+        <test-method signature="UserCanRegisterSuccessfully()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:30:57Z" name="UserCanRegisterSuccessfully" finished-at="2022-12-25T18:31:07Z" duration-ms="9415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanRegisterSuccessfully -->
-        <test-method is-config="true" signature="screenshotonFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:28 EET" name="screenshotonFailure" finished-at="2022-12-22T14:56:28 EET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="screenshotonFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:31:07Z" name="screenshotonFailure" finished-at="2022-12-25T18:31:07Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanRegisterSuccessfully status=SUCCESS method=UserCheckoutProductsTest.UserCanRegisterSuccessfully()[pri:1, instance:Tests.UserCheckoutProductsTest@1bd4fdd] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanRegisterSuccessfully status=SUCCESS method=UserCheckoutProductsTest.UserCanRegisterSuccessfully()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotonFailure -->
-        <test-method signature="UserCanSearchProduct()[pri:2, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:28 EET" name="UserCanSearchProduct" finished-at="2022-12-22T14:56:31 EET" duration-ms="3839" status="PASS">
+        <test-method signature="UserCanSearchProduct()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:31:07Z" name="UserCanSearchProduct" finished-at="2022-12-25T18:31:40Z" duration-ms="33436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchProduct -->
-        <test-method is-config="true" signature="screenshotonFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:31 EET" name="screenshotonFailure" finished-at="2022-12-22T14:56:31 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshotonFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:31:40Z" name="screenshotonFailure" finished-at="2022-12-25T18:31:40Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanSearchProduct status=SUCCESS method=UserCheckoutProductsTest.UserCanSearchProduct()[pri:2, instance:Tests.UserCheckoutProductsTest@1bd4fdd] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanSearchProduct status=SUCCESS method=UserCheckoutProductsTest.UserCanSearchProduct()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotonFailure -->
-        <test-method signature="UserCanAdditemToShoppingCart()[pri:3, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:31 EET" name="UserCanAdditemToShoppingCart" finished-at="2022-12-22T14:56:33 EET" duration-ms="1258" status="PASS">
+        <test-method signature="UserCanAdditemToShoppingCart()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:31:40Z" name="UserCanAdditemToShoppingCart" finished-at="2022-12-25T18:31:48Z" duration-ms="8286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanAdditemToShoppingCart -->
-        <test-method is-config="true" signature="screenshotonFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:33 EET" name="screenshotonFailure" finished-at="2022-12-22T14:56:33 EET" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UserCanAdditemToShoppingCart status=SUCCESS method=UserCheckoutProductsTest.UserCanAdditemToShoppingCart()[pri:3, instance:Tests.UserCheckoutProductsTest@1bd4fdd] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshotonFailure -->
-        <test-method signature="userCanMakeCheckout()[pri:4, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:33 EET" name="userCanMakeCheckout" finished-at="2022-12-22T14:56:38 EET" duration-ms="4864" status="PASS">
+        <test-method signature="userCanMakeCheckout()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:31:48Z" name="userCanMakeCheckout" finished-at="2022-12-25T18:32:19Z" duration-ms="30314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanMakeCheckout -->
-        <test-method is-config="true" signature="screenshotonFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:38 EET" name="screenshotonFailure" finished-at="2022-12-22T14:56:38 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshotonFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:31:48Z" name="screenshotonFailure" finished-at="2022-12-25T18:31:48Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userCanMakeCheckout status=SUCCESS method=UserCheckoutProductsTest.userCanMakeCheckout()[pri:4, instance:Tests.UserCheckoutProductsTest@1bd4fdd] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanAdditemToShoppingCart status=SUCCESS method=UserCheckoutProductsTest.UserCanAdditemToShoppingCart()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotonFailure -->
-        <test-method is-config="true" signature="stopdriver()[pri:0, instance:Tests.UserCheckoutProductsTest@1bd4fdd]" started-at="2022-12-22T14:56:38 EET" name="stopdriver" finished-at="2022-12-22T14:56:38 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshotonFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:32:19Z" name="screenshotonFailure" finished-at="2022-12-25T18:32:19Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanMakeCheckout status=SUCCESS method=UserCheckoutProductsTest.userCanMakeCheckout()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonFailure -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:Tests.UserCheckoutProductsTest@247310d0]" started-at="2022-12-25T18:32:19Z" name="stopdriver" finished-at="2022-12-25T18:32:19Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopdriver -->

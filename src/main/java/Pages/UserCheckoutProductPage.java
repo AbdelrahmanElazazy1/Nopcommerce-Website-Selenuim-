@@ -1,7 +1,5 @@
 package Pages;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -54,6 +52,13 @@ public class UserCheckoutProductPage extends PageBase{
 	@FindBy(css = "div.title")
 	public WebElement OrderSuccessMessage;
 	
+	//3- Click Here for odrer detais
+	
+	@FindBy(linkText = "Click here for order details.")
+	WebElement ClickHereLink;
+	
+	@FindBy(xpath = "//*[@class=\"button-2 pdf-invoice-button\"]")
+	WebElement PDFInvoiceButton;
 	
 	
 	public void CartPage()
@@ -69,13 +74,15 @@ public class UserCheckoutProductPage extends PageBase{
 		CountryButton.sendKeys("Egypt");
 		CityField.sendKeys("Cairo");
 		Address1Field.sendKeys("New Cairo");
-		ZipPostalCode.sendKeys("1111");
+		ZipPostalCode.sendKeys("11689");
 		PhoneNumber.sendKeys("012345678910");
 		ContinueButton.click();
 		ShiipingMethodContinueButton.click();
 		PaymentMethodContinueButton.click();
 		PaymentInformationContinueButton.click();
 		ConfirmButton.click();
+		ClickHereLink.click();
+		PDFInvoiceButton.click();
 	}
 	
 }

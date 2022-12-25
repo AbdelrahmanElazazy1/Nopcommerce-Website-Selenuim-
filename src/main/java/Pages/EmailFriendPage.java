@@ -4,8 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import dev.failsafe.internal.util.Assert;
-
 public class EmailFriendPage extends PageBase{
 
 	public EmailFriendPage(WebDriver driver) {

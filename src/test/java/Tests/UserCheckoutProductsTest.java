@@ -2,7 +2,6 @@ package Tests;
 
 import java.util.concurrent.TimeUnit;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Pages.AddProductToShoppingCartPage;
@@ -37,7 +36,7 @@ public class UserCheckoutProductsTest extends TestBase {
 		homeObject = new HomePage(driver);
 		homeObject.openRegistrationPage();
 		registerObject = new UserRegistrationPage(driver);
-		registerObject.UserRegistration("Abdelrahman", "El Azazy", "Abq5111wdowsses.elazazy@outlook.com", "Azazy@123");
+		registerObject.UserRegistration("Abdelrahman", "El Azazy", "Test@TestNG.com", "123456789");
 		//Assert.assertTrue(registerObject.SuccessMessage.getText().contains("Your registration completed"));
 		LoginObject = new LoginPage(driver);
 		LoginObject.UserLogin();

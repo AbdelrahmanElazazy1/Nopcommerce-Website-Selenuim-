@@ -37,8 +37,8 @@ public class LoginPage extends PageBase
 
 	{
         LoginLink.click();
-		Emailtxtbox.sendKeys("Abq5111wdowsses.elazazy@outlook.com");
-		Passwordtxtbox.sendKeys("Azazy@123");
+		Emailtxtbox.sendKeys("Test@TestNG.com");
+		Passwordtxtbox.sendKeys("123456789");
 		LoginButton.click();
 	}
 
